@@ -19,6 +19,7 @@ To run this script, you need:
 
 ## Installation & Usage
 1. Clone the repository or download `overtonight.c`.
-2. Compile the source code:
+2. go into the foler: cd Overtonight-Figlet 
+3. Compile the source code:
    ```bash
    gcc overtonight.c -o overtonight
