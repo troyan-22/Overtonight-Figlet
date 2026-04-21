@@ -26,4 +26,4 @@ To run this script, you need:
 4. And run:  ./overtonight
 
 5. TO ADD THIS TO PATH: cp overtonight ~/.local/bin/
-6. And then enjoy by using 'overtonight'
+6. And then you can delete folder in /home/'YOUR_NAME'/Overtonight-Figlet and enjoy by using 'overtonight'
