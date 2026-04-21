@@ -6,24 +6,40 @@ A simple C script that displays synchronized song lyrics using FIGlet with preci
 
 A minimalist **C script** designed to display synchronized song lyrics in the terminal. This project focuses on precision timing and a clean, "bloat-free" execution, developed and tested on **Gentoo Linux**.
 
-## Features
+## Features 
 - **Dynamic Centering**: Automatically adjusts to your terminal window size using `ioctl`.
-- **ASCII Art**: Powered by `FIGlet` for a classic hacker/demoscene aesthetic.
+- **ASCII Art**: Powered by `FIGlet` for a classic aesthetic.
 - **Zero Bloat**: No heavy libraries, just pure C and system calls.
 
 ## Prerequisites
-To run this script, you need:
+To run this script, you need: ⚠️
 - **GCC** (GNU Compiler Collection)
-- **FIGlet** (CLI tool for ASCII banners)
+- **FIGlet** (CLI tool for ASCII banners) ⚠️⚠️⚠️
 - **Linux Environment** (tested on Gentoo)
 
 ## Installation & Usage
-1. Clone the repository or download `overtonight.c`.
-2. Go into the foler: cd Overtonight-Figlet
-3. Compile the source code:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/troyan-22/Overtonight-Figlet.git
+   cd Overtonight-Figlet
+   ```
+2. Compile:
    ```bash
    gcc overtonight.c -o overtonight
-4. And run: ./overtonight
+   ```
+3. Run:
+   ```bash
+   ./overtonight
+   ```
+## Optional: Add to PATH
+To run the program from anywhere:
 
-5. TO ADD THIS TO PATH: cp overtonight ~/.local/bin/
-6. And then you can delete folder in /home/'YOUR_NAME'/Overtonight-Figlet and enjoy by using 'overtonight'
+```bash
+cp overtonight ~/.local/bin/
+```
+Now you can use:
+```bash
+overtonight
+```
+
