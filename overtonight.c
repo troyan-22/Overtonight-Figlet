@@ -4,7 +4,7 @@
 #include <sys/ioctl.h>
 
 int main(void) {
-    // Song lyrics - the NULL at the end is required to stop the for loop
+    // Song lyrics 
     char *lyrics[] = {
         "THE", "DAY", "I", "KILL", "MYSELF", "I'LL", "STREAM", "MYSELF", 
         "AND", "THEY'LL", "POST", "IT", "ONLINE", "MOST", "DAYS", "I", 
@@ -14,7 +14,7 @@ int main(void) {
         NULL
     };
     
-    // Precise timings in microseconds (1,000,000 us = 1 second)
+    
     int delays[] = {
         604000,   // THE
         124500,   // DAY
@@ -62,10 +62,14 @@ int main(void) {
     char command[256];
     struct winsize w;
 
+    
+    printf("\033[H\033[J");
+
     for (int i = 0; lyrics[i] != NULL; i++) {
-        
+       
         ioctl(STDOUT_FILENO, TIOCGWINSZ, &w);
 
+     
         printf("\033[H\033[J");
 
         sprintf(command, "figlet -c -w %d \"%s\"", w.ws_col, lyrics[i]);
@@ -75,6 +79,7 @@ int main(void) {
         usleep(delays[i]);
     }
 
+   
     printf("\033[H\033[J");
 
     return 0;
