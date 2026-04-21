@@ -4,6 +4,8 @@
 #include <sys/ioctl.h>
 
 int main(void) {
+    system("clear");
+    
     // Song lyrics 
     char *lyrics[] = {
         "THE", "DAY", "I", "KILL", "MYSELF", "I'LL", "STREAM", "MYSELF", 
