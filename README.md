@@ -19,17 +19,9 @@ To run this script, you need: ⚠️
 
 ## Make sure you have FIGLET installed.
 
-Arch Linux
 '''bash
 sudo pacman -S figlet
 '''
-
-Gentoo
-'sudo emerge app-text/figlet'
-
-Debian / Ubuntu (APT)
-'sudo apt update'
-'sudo apt install figlet'
 
 
 ## Preview
