@@ -22,19 +22,12 @@ Make sure you have:
 
 ```bash
 sudo pacman -S figlet
-
-OR
-
-yay -S figlet
 ```
 
 ### Gentoo
 
 ```bash
 sudo emerge --sync
-
-AN THEN
-
 sudo emerge app-misc/figlet
 ```
 
@@ -42,8 +35,6 @@ sudo emerge app-misc/figlet
 
 ```bash
 sudo apt update
-
-AND THEN
 
 sudo apt install figlet
 ```
