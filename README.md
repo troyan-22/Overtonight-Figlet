@@ -63,6 +63,10 @@ gcc overtonight.c -o overtonight
 cp overtonight ~/.local/bin/
 ```
 
+```bash
+chmod +x ~/.local/bin/overtonight
+```
+
 Then run:
 
 ```bash
