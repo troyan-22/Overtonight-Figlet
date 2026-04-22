@@ -1,55 +1,63 @@
 # Overtonight-Figlet
-A simple C script that displays synchronized song lyrics using FIGlet with precise timing based on audio analysis.
 
+A simple C script that displays synchronized song lyrics using FIGlet with precise timing.
 
-# Overtonight Lyrics Script "They'll post it online"
+## Features
 
-A minimalist **C script** designed to display synchronized song lyrics in the terminal. This project focuses on precision timing and a clean, "bloat-free" execution, developed and tested on **Gentoo Linux**.
-
-## Features 
-- **Dynamic Centering**: Automatically adjusts to your terminal window size using `ioctl`.
-- **ASCII Art**: Powered by `FIGlet` for a classic aesthetic.
-- **Zero Bloat**: No heavy libraries, just pure C and system calls.
+* **Dynamic Centering**: Automatically adjusts to your terminal window size using `ioctl`
+* **ASCII Art**: Powered by `FIGlet`
+* **Zero Bloat**: Pure C, no heavy dependencies
 
 ## Prerequisites
-To run this script, you need: ⚠️
-- **GCC** (GNU Compiler Collection)
-- **FIGlet** (CLI tool for ASCII banners) ⚠️⚠️⚠️
-- **Linux Environment** (tested on Gentoo)
 
-## Make sure you have FIGLET installed.
+Make sure you have:
 
-'''bash
+* `gcc`
+* `figlet`
+* Linux environment (tested on Gentoo)
+
+## Install FIGlet
+
+### Arch Linux
+
+```bash
 sudo pacman -S figlet
-'''
+```
 
+### Gentoo
+
+```bash
+sudo emerge app-text/figlet
+```
+
+### Debian / Ubuntu
+
+```bash
+sudo apt update
+sudo apt install figlet
+```
 
 ## Preview
+
 ![demo](overtonight.gif)
 
 ## Installation & Usage
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/troyan-22/Overtonight-Figlet.git
-   cd Overtonight-Figlet
-   ```
-2. Compile:
-   ```bash
-   gcc overtonight.c -o overtonight
-   ```
-3. Run:
-   ```bash
-   ./overtonight
-   ```
+```bash
+git clone https://github.com/troyan-22/Overtonight-Figlet.git
+cd Overtonight-Figlet
+gcc overtonight.c -o overtonight
+./overtonight
+```
+
 ## Optional: Add to PATH
-To run the program from anywhere:
 
 ```bash
 cp overtonight ~/.local/bin/
 ```
-Now you can use:
+
+Then run:
+
 ```bash
 overtonight
 ```
-
