@@ -22,6 +22,8 @@ Make sure you have:
 
 ```bash
 sudo pacman -S figlet
+OR
+yay -S figlet
 ```
 
 ### Gentoo
