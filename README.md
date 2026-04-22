@@ -27,7 +27,10 @@ sudo pacman -S figlet
 ### Gentoo
 
 ```bash
-sudo emerge app-text/figlet
+sudo emerge --sync
+
+```bash
+sudo emerge app-misc/figlet
 ```
 
 ### Debian / Ubuntu
