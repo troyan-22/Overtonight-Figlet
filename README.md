@@ -17,6 +17,19 @@ To run this script, you need: ⚠️
 - **FIGlet** (CLI tool for ASCII banners) ⚠️⚠️⚠️
 - **Linux Environment** (tested on Gentoo)
 
+## Make sure you have FIGLET installed.
+
+Arch Linux
+'sudo pacman -S figlet'
+
+Gentoo
+'sudo emerge app-text/figlet'
+
+Debian / Ubuntu (APT)
+'sudo apt update'
+'sudo apt install figlet'
+
+
 ## Preview
 ![demo](overtonight.gif)
 
