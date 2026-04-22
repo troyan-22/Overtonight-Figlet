@@ -29,7 +29,7 @@ sudo pacman -S figlet
 ```bash
 sudo emerge --sync
 
-```bash
+
 sudo emerge app-misc/figlet
 ```
 
