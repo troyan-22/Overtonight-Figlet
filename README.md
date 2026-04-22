@@ -20,7 +20,9 @@ To run this script, you need: ⚠️
 ## Make sure you have FIGLET installed.
 
 Arch Linux
-'sudo pacman -S figlet'
+'''bash
+sudo pacman -S figlet
+'''
 
 Gentoo
 'sudo emerge app-text/figlet'
