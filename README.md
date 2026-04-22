@@ -16,13 +16,18 @@ Make sure you have:
 * `figlet`
 * Linux environment (tested on Gentoo)
 
-## Install FIGlet
+## Install FIGLET
 
 ### Arch Linux
 
 ```bash
 sudo pacman -S figlet
 ```
+OR
+```bash
+yay -S figlet
+```
+
 
 ### Gentoo
 
