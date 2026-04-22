@@ -1,7 +1,6 @@
 # Overtonight-Figlet 
-(Yh ik its bad but im learning C and wanted to make TikTok with these lyrics)
 
-A simple C script that displays synchronized song lyrics using FIGlet with precise timing.
+A simple C script that displays synchronized song lyrics using FIGLET with precise timing.
 
 ## Features
 
