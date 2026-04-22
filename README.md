@@ -17,6 +17,9 @@ To run this script, you need: ⚠️
 - **FIGlet** (CLI tool for ASCII banners) ⚠️⚠️⚠️
 - **Linux Environment** (tested on Gentoo)
 
+## Preview
+![demo](overtonight.gif)
+
 ## Installation & Usage
 
 1. Clone the repository:
